@@ -17,6 +17,7 @@ a {
 nav {
   background-color: #fffffe;
   width: 80%;
+  min-width: 30%;
   margin: 0 auto;
   padding: 5px;
   border-radius: 16px;
