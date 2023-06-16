@@ -1,6 +1,7 @@
 body {
   background: #004643;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  min-height: 300vh;
 }
 
 * {
@@ -15,17 +16,19 @@ a {
 }
 
 nav {
-  background-color: #fffffe;
   width: 80%;
-  min-width: 30%;
-  margin: 0 auto;
-  padding: 5px;
+  margin: 50px auto;
+  background: #fff;
+  list-style: none;
+  position: fixed;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 20px;
   border-radius: 16px;
-  margin-top: 10px;
 }
 nav ul {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
 }
 nav ul li {
   list-style-type: none;
